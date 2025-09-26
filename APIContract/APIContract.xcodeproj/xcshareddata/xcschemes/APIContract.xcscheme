@@ -17,49 +17,7 @@
                BlueprintIdentifier = "009B1A3F1F95596A543FE355"
                BuildableName = "APIContract.framework"
                BlueprintName = "APIContract"
-               ReferencedContainer = "container:APIContract/APIContract.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14A13FC06299E24F62AF038E"
-               BuildableName = "APIHelpers.framework"
-               BlueprintName = "APIHelpers"
-               ReferencedContainer = "container:APIHelpers/APIHelpers.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "174F228032D86EF138FD3A2B"
-               BuildableName = "Application.app"
-               BlueprintName = "Application"
-               ReferencedContainer = "container:Application/Application.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "EF8CE03A2759141C3B1EAC1D"
-               BuildableName = "Login.framework"
-               BlueprintName = "Login"
-               ReferencedContainer = "container:Login/Login.xcodeproj">
+               ReferencedContainer = "container:APIContract.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -68,7 +26,8 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES">
+      shouldUseLaunchSchemeArgsEnv = "YES"
+      disableMainThreadChecker = "YES">
       <Testables>
       </Testables>
    </TestAction>
@@ -88,7 +47,7 @@
             BlueprintIdentifier = "009B1A3F1F95596A543FE355"
             BuildableName = "APIContract.framework"
             BlueprintName = "APIContract"
-            ReferencedContainer = "container:APIContract/APIContract.xcodeproj">
+            ReferencedContainer = "container:APIContract.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -104,7 +63,7 @@
             BlueprintIdentifier = "009B1A3F1F95596A543FE355"
             BuildableName = "APIContract.framework"
             BlueprintName = "APIContract"
-            ReferencedContainer = "container:APIContract/APIContract.xcodeproj">
+            ReferencedContainer = "container:APIContract.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

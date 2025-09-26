@@ -1,10 +1,4 @@
-import Foundation
+import APIContract
 
-public protocol URLRequestTask {
-    func cancel()
-}
-
-public protocol URLRequestPerforming {
-    func perform(request: URLRequest,
-                 onComplete: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLRequestTask
-}
+public typealias URLRequestPerforming = APIContract.URLRequestPerforming
+public typealias URLRequestTask = APIContract.URLRequestTask

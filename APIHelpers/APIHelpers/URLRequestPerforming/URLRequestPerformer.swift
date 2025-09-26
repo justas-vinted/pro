@@ -1,6 +1,5 @@
 import Foundation
 
-// ⚠️ The URLRequestPerforming implementation is available for feature modules.
 public struct URLRequestPerformer: URLRequestPerforming {
     private let session: URLSession
     

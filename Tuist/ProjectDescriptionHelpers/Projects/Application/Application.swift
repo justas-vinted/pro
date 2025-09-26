@@ -4,6 +4,7 @@ nonisolated(unsafe)
 public let Application = ApplicationProject(
     name: "Application",
     dependencies: [
-        Login
+        Login,
+        APIHelpers
     ]
 )
