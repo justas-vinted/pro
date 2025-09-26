@@ -1,0 +1,7 @@
+/Application/Application/AppDelegate @technologies
+/Application/Application/Login @team-A
+
+/Login @team-A
+/Tuist/ProjectDescriptionHelpers/Architecture @technologies
+/Tuist/ProjectDescriptionHelpers/Projects/Application @technologies
+/Tuist/ProjectDescriptionHelpers/Projects/Login @team-A
