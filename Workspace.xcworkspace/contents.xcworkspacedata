@@ -8,9 +8,15 @@
       location = "group:APIHelpers/APIHelpers.xcodeproj">
    </FileRef>
    <FileRef
+      location = "group:AppDelegate/AppDelegate.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Application/Application.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Login/Login.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:UserJourney/UserJourney.xcodeproj">
    </FileRef>
 </Workspace>

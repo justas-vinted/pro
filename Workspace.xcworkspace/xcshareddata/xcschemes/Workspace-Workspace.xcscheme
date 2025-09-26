@@ -42,6 +42,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "0A148712A4FB8BA6C5B03943"
+               BuildableName = "AppDelegate.framework"
+               BlueprintName = "AppDelegate"
+               ReferencedContainer = "container:AppDelegate/AppDelegate.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "174F228032D86EF138FD3A2B"
                BuildableName = "Application.app"
                BlueprintName = "Application"
@@ -60,6 +74,20 @@
                BuildableName = "Login.framework"
                BlueprintName = "Login"
                ReferencedContainer = "container:Login/Login.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "EC397FAA0D01A4DEF009728F"
+               BuildableName = "UserJourney.framework"
+               BlueprintName = "UserJourney"
+               ReferencedContainer = "container:UserJourney/UserJourney.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

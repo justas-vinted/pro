@@ -5,6 +5,8 @@ public let Application = ApplicationProject(
     name: "Application",
     dependencies: [
         Login,
-        APIHelpers
+        APIHelpers,
+        AppDelegate,
+        UserJourney
     ]
 )
