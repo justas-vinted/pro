@@ -1,3 +1,3 @@
-import APIHelpers
+import APIContract
 
-public typealias URLRequestPerforming = APIHelpers.URLRequestPerforming
+public typealias URLRequestPerforming = APIContract.URLRequestPerforming

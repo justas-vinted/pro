@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144735638941ABE7FB082507 /* APIHelpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE7467C90A5F2EF5C612661C /* APIHelpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		177FD62A0726C173FE0AD0F7 /* APIHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7467C90A5F2EF5C612661C /* APIHelpers.framework */; };
 		20E29682D3723539AEAD1CA7 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F46F172166B2EBE5E20D2 /* Login.framework */; };
+		BED1D871947AA84B50EA986E /* APIContract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA85A6D5A6575657570E1279 /* APIContract.framework */; };
+		C5EFB50682EFAA03710D7A4B /* APIContract.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CA85A6D5A6575657570E1279 /* APIContract.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +20,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				144735638941ABE7FB082507 /* APIHelpers.framework in Embed Frameworks */,
+				C5EFB50682EFAA03710D7A4B /* APIContract.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -30,11 +31,20 @@
 		400BDC5D123095F86618113D /* Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Application-Info.plist"; sourceTree = "<group>"; };
 		54F1CF7ADDAEBEA53107DABD /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE7467C90A5F2EF5C612661C /* APIHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA85A6D5A6575657570E1279 /* APIContract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIContract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21F46F172166B2EBE5E20D2 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1A7E05F62927369C9954ADA9 /* Application */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Application; sourceTree = "<group>"; };
+		1A7E05F62927369C9954ADA9 /* Application */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED1D871947AA84B50EA986E /* APIContract.framework in Frameworks */,
 				177FD62A0726C173FE0AD0F7 /* APIHelpers.framework in Frameworks */,
 				20E29682D3723539AEAD1CA7 /* Login.framework in Frameworks */,
 			);
@@ -61,6 +72,7 @@
 		7C3BDA2A0643918E7D1509E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				CA85A6D5A6575657570E1279 /* APIContract.framework */,
 				AE7467C90A5F2EF5C612661C /* APIHelpers.framework */,
 				54F1CF7ADDAEBEA53107DABD /* Application.app */,
 				D21F46F172166B2EBE5E20D2 /* Login.framework */,
@@ -126,6 +138,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 77E51D5A979D42B26C5EF65E /* Build configuration list for PBXProject "Application" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -237,7 +251,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

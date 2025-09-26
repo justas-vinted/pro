@@ -1,6 +1,7 @@
 import ProjectDescription
 
 nonisolated(unsafe)
-public let APIHelpers = PlatformProject(
-    name: "APIHelpers"
+public let APIHelpers = FeatureProject(
+    name: "APIHelpers",
+    dependencies: [APIContract]
 )

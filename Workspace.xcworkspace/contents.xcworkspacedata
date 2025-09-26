@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:APIContract/APIContract.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:APIHelpers/APIHelpers.xcodeproj">
    </FileRef>
    <FileRef
