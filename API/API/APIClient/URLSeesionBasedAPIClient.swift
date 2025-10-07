@@ -1,15 +1,14 @@
 import Foundation
 
-// ⚠️ The URLRequestPerforming implementation is available for feature modules.
-public struct URLRequestPerformer: URLRequestPerforming {
+internal struct URLSeesionBasedAPIClient: APIClient {
     private let session: URLSession
     
-    public init(session: URLSession) {
+    init(session: URLSession) {
         self.session = session
     }
     
-    public func perform(request: URLRequest,
-                        onComplete: @escaping (Data?, URLResponse?, (any Error)?) -> Void) -> any URLRequestTask {
+    func perform(request: URLRequest,
+                 onComplete: @escaping (Data?, URLResponse?, (any Error)?) -> Void) -> any APIClientTask {
         Task(
             session.dataTask(
                 with: request, completionHandler: onComplete
@@ -18,8 +17,8 @@ public struct URLRequestPerformer: URLRequestPerforming {
     }
 }
 
-extension URLRequestPerformer {
-    private class Task: URLRequestTask {
+extension URLSeesionBasedAPIClient {
+    private class Task: APIClientTask {
         let urlSessionDataTask: URLSessionDataTask
         
         init(_ urlSessionDataTask: URLSessionDataTask) {

@@ -1,3 +1,3 @@
-import APIHelpers
+import API
 
-public typealias URLRequestPerforming = APIHelpers.URLRequestPerforming
+public typealias APIClient = API.APIClient

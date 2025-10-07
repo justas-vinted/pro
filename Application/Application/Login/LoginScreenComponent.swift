@@ -1,11 +1,10 @@
 import Login
-import APIHelpers
+import API
 
 extension LoginScreenComponentFactory {
     init() {
         self.init(
-            urlRequestPerformer: URLRequestPerformer(session: .shared)
+            apiClient: APIClientFactory().make()
         )
     }
 }
-

@@ -1,13 +1,13 @@
 import UIKit
 
-
 internal class LoginScreenComponentViewController: UIViewController {
-    private let urlRequestPerformer: URLRequestPerforming
+    private let apiClient: APIClient
     private var configuration: LoginScreenComponentConfiguration
     
-    init(configuration: LoginScreenComponentConfiguration, urlRequestPerformer: URLRequestPerforming) {
+    init(configuration: LoginScreenComponentConfiguration,
+         apiClient: APIClient) {
         self.configuration = configuration
-        self.urlRequestPerformer = urlRequestPerformer
+        self.apiClient = apiClient
         super.init(nibName: nil, bundle: nil)
     }
     

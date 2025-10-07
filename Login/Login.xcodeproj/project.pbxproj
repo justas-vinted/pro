@@ -3,11 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 70;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67F08E1CD8E0B47A437A0A69 /* APIHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A8ED19C22CA1A06F3D2FFFF /* APIHelpers.framework */; };
+		8D6DA89CD1DDC3F745266559 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA80751068BE11EFDF582D71 /* API.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,11 +26,19 @@
 /* Begin PBXFileReference section */
 		1F122292170A9B08F370E93A /* Login-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Login-Info.plist"; sourceTree = "<group>"; };
 		28C6E6787DFAF624F53D6F5B /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3A8ED19C22CA1A06F3D2FFFF /* APIHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA80751068BE11EFDF582D71 /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		DF961CDA712620F3CF10E90E /* Login */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Login; sourceTree = "<group>"; };
+		DF961CDA712620F3CF10E90E /* Login */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			explicitFileTypes = {
+			};
+			explicitFolders = (
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67F08E1CD8E0B47A437A0A69 /* APIHelpers.framework in Frameworks */,
+				8D6DA89CD1DDC3F745266559 /* API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,7 +64,7 @@
 		275CA20C12D61868FDE00BD5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3A8ED19C22CA1A06F3D2FFFF /* APIHelpers.framework */,
+				EA80751068BE11EFDF582D71 /* API.framework */,
 				28C6E6787DFAF624F53D6F5B /* Login.framework */,
 			);
 			name = Products;
@@ -73,8 +81,8 @@
 		A19BD00EC1C84FD92121B04F /* Project */ = {
 			isa = PBXGroup;
 			children = (
-				DF961CDA712620F3CF10E90E /* Login */,
 				212E49CF4F45A085BC2440DF /* Derived */,
+				DF961CDA712620F3CF10E90E /* Login */,
 			);
 			name = Project;
 			sourceTree = "<group>";
@@ -120,6 +128,8 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = YES;
+				TargetAttributes = {
+				};
 			};
 			buildConfigurationList = 6C10079AF94881EFE73379E4 /* Build configuration list for PBXProject "Login" */;
 			compatibilityVersion = "Xcode 14.0";
@@ -217,7 +227,10 @@
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = YES;
 				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = (
+					"$(inherited)",
+					DEBUG,
+				);
 				SWIFT_COMPILATION_MODE = singlefile;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;

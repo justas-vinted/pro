@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "14A13FC06299E24F62AF038E"
-               BuildableName = "APIHelpers.framework"
-               BlueprintName = "APIHelpers"
-               ReferencedContainer = "container:APIHelpers/APIHelpers.xcodeproj">
+               BlueprintIdentifier = "4D827AB669FBF5A68B49E434"
+               BuildableName = "API.framework"
+               BlueprintName = "API"
+               ReferencedContainer = "container:API/API.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -71,10 +71,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14A13FC06299E24F62AF038E"
-            BuildableName = "APIHelpers.framework"
-            BlueprintName = "APIHelpers"
-            ReferencedContainer = "container:APIHelpers/APIHelpers.xcodeproj">
+            BlueprintIdentifier = "4D827AB669FBF5A68B49E434"
+            BuildableName = "API.framework"
+            BlueprintName = "API"
+            ReferencedContainer = "container:API/API.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </LaunchAction>
@@ -87,10 +87,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "14A13FC06299E24F62AF038E"
-            BuildableName = "APIHelpers.framework"
-            BlueprintName = "APIHelpers"
-            ReferencedContainer = "container:APIHelpers/APIHelpers.xcodeproj">
+            BlueprintIdentifier = "4D827AB669FBF5A68B49E434"
+            BuildableName = "API.framework"
+            BlueprintName = "API"
+            ReferencedContainer = "container:API/API.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </ProfileAction>

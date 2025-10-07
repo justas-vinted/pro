@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		144735638941ABE7FB082507 /* APIHelpers.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE7467C90A5F2EF5C612661C /* APIHelpers.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		177FD62A0726C173FE0AD0F7 /* APIHelpers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE7467C90A5F2EF5C612661C /* APIHelpers.framework */; };
 		20E29682D3723539AEAD1CA7 /* Login.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D21F46F172166B2EBE5E20D2 /* Login.framework */; };
+		69203E00B07040E0A1474BF1 /* API.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B867E9FD99B1CC5D001E70AF /* API.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EA3F21E1497465D582007525 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B867E9FD99B1CC5D001E70AF /* API.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -19,7 +19,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				144735638941ABE7FB082507 /* APIHelpers.framework in Embed Frameworks */,
+				69203E00B07040E0A1474BF1 /* API.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		400BDC5D123095F86618113D /* Application-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Application-Info.plist"; sourceTree = "<group>"; };
 		54F1CF7ADDAEBEA53107DABD /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE7467C90A5F2EF5C612661C /* APIHelpers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = APIHelpers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B867E9FD99B1CC5D001E70AF /* API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D21F46F172166B2EBE5E20D2 /* Login.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Login.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -42,7 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				177FD62A0726C173FE0AD0F7 /* APIHelpers.framework in Frameworks */,
+				EA3F21E1497465D582007525 /* API.framework in Frameworks */,
 				20E29682D3723539AEAD1CA7 /* Login.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,7 +61,7 @@
 		7C3BDA2A0643918E7D1509E8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AE7467C90A5F2EF5C612661C /* APIHelpers.framework */,
+				B867E9FD99B1CC5D001E70AF /* API.framework */,
 				54F1CF7ADDAEBEA53107DABD /* Application.app */,
 				D21F46F172166B2EBE5E20D2 /* Login.framework */,
 			);
